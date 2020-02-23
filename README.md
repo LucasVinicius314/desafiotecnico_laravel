@@ -54,11 +54,11 @@ informações na API, mude o parâmetro da função da linha 160 do arquivo "app
 rejeitadas, devido ao fato de serem 924 (77 * 12) requisições simultâneas à API. O único jeito que achei para resolver este problema foi limitar a quantidade de meses a serem verificados.
 - Caso os dados não sejam consumidos corretamente, execute "php artisan migrate:reset" e em seguida "php artisan migrate". Depois disso, "php artisan serve" para ativar o servidor novamente.
 
-Autor: Lucas Vinícius.
-Dados Abertos ALMG: http://dadosabertos.almg.gov.br/ws/ajuda/sobre.
-Link para obter lista de deputados: https://dadosabertos.almg.gov.br/ws/deputados/ajuda#Lista%20Telef%C3%B4nica%20de%20Deputados.
-Link para obter informações de verbas: https://dadosabertos.almg.gov.br/ws/prestacao_contas/verbas_indenizatorias/ajuda#Lista%20de%20Datas%20de%20Verbas%20Indenizat%C3%B3rias%20de%20um%20Deputado%20na%20legislatura%20atual.
-Link para obter Composer: https://getcomposer.org/.
+Autor: Lucas Vinícius.<br>
+Dados Abertos ALMG: http://dadosabertos.almg.gov.br/ws/ajuda/sobre.<br>
+Link para obter lista de deputados: https://dadosabertos.almg.gov.br/ws/deputados/ajuda#Lista%20Telef%C3%B4nica%20de%20Deputados.<br>
+Link para obter informações de verbas: https://dadosabertos.almg.gov.br/ws/prestacao_contas/verbas_indenizatorias/ajuda#Lista%20de%20Datas%20de%20Verbas%20Indenizat%C3%B3rias%20de%20um%20Deputado%20na%20legislatura%20atual.<br>
+Link para obter Composer: https://getcomposer.org/.<br>
 fevereiro de 2020.
 
 ## About Laravel
